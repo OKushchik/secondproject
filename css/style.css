@@ -133,7 +133,7 @@ header::after {
 
 }
 .titleButton a:hover {
-    background: rgba(25, 18, 62, 0.69);
+    background: rgba(62, 229, 216, 0.31);
 }
 .titleRound_item {
     border: 1px solid gray;
@@ -199,7 +199,7 @@ header::after {
     font-weight: bold;
 }
 .buttomLearnmore a:hover{
-    background: rgba(2, 217, 203, 0.22);
+    background: rgba(62, 229, 216, 0.35);
 }
 .video {
     position: relative;
@@ -235,5 +235,93 @@ header::after {
     background: rgba(62, 229, 216, 0.4);
     border-radius: 50%;
 }
+.wrapperMainSacond {
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 255, 255, 0);
+    /*background: rgba(62, 229, 216, 0.4)*/
+}
+.titleExpertise {
+    margin-top: 10%;
+    margin-bottom: 5% ;
+}
+.titleExpertise h1{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.titleExpertise p {
+    text-align: center;
+}
+.titleExpertise hr {
+    background-color: gray;
+    color: black;
+    width: 10%;
+    height: 2px;
+    border: none;
+    margin: 2% auto;
+}
 
-
+.expertiseLine {
+    display: flex;
+}
+.expertiseGroup{
+    position: relative;
+    padding: 3%;
+}
+.expertiseGroup h2{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 90%;
+    font-weight: bold;
+}
+.expertiseGroup p{
+    text-align: center;
+    margin-top: 5%;
+}
+/*.expertiseGroup img {*/
+    /*width: 20%;*/
+    /*height: auto;*/
+/*}*/
+.iconOne {
+    position: relative;
+    top:2%;
+    left:40%;
+    width: 17%;
+    height: auto;
+}
+.iconTwo{
+    position: relative;
+    top:2%;
+    left:40%;
+    width: 20%;
+    height: auto;
+}
+.iconThree{
+    position: relative;
+    top: 2%;
+    left: 40%;
+    width: 10%;
+    height: auto;
+}
+.iconFour {
+    position: relative;
+    top: 2%;
+    left: 40%;
+    width: 20%;
+    height: auto;
+}
+.iconFive {
+    position: relative;
+    top: 2%;
+    left: 40%;
+    width: 15%;
+    height: auto;
+}
+.iconSix {
+    position: relative;
+    top: 2%;
+    left: 40%;
+    width: 20%;
+    height: auto;
+}
