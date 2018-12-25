@@ -1294,7 +1294,7 @@ header::after {
     position: relative;
     width: 30%;
     height: 80%;
-    margin-top: 3%; }
+    margin-top: 5%; }
     .informPartTwo__title {
       margin-top: 10%;
       width: 100%;
@@ -1328,7 +1328,7 @@ header::after {
   .informPartThree {
     width: 30%;
     height: 80%;
-    margin-top: 3%; }
+    margin-top: 5%; }
     .informPartThree__title {
       margin-top: 10%;
       width: 100%;
@@ -1357,7 +1357,7 @@ header::after {
         width: 60%; }
     .informPartThree__icon {
       display: flex;
-      margin-top: 10%; }
+      margin-top: 5%; }
     .informPartThree__iconLogo {
       margin-left: 2%; }
   .privacy {
@@ -1382,6 +1382,7 @@ header::after {
     .privacyMenu li {
       margin-left: 10%; }
   .copyright {
+    margin-top: 3%;
     width: 30%;
     position: relative;
     color: white;
