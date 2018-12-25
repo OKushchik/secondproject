@@ -873,9 +873,9 @@ header::after {
     padding-left: 70%;
     cursor: pointer; }
   .titleButton {
-    margin-top: 5%; }
+    margin-top: 3%; }
   .titleRound {
-    margin-top: 5%; }
+    margin-top: 2%; }
   .headerBlockMenu {
     display: block;
     margin-left: 65%;
@@ -1035,7 +1035,7 @@ header::after {
         left: 0; }
     .team__text {
       position: absolute;
-      top: 5%;
+      top: 30px;
       left: 0;
       text-align: center;
       color: white;
@@ -1052,14 +1052,13 @@ header::after {
         margin: 0 45% 0 45%; }
   .teamBlock {
     position: absolute;
-    top: 1%;
+    top: 0;
     left: 1%;
     display: block;
     width: 100%;
-    height: 15%;
+    height: 20%;
     margin: 23vh 15% 0 20%; }
     .teamBlock__items {
-      margin-top: 10%;
       width: 30%;
       height: 100%;
       margin-left: 15%; }
@@ -1107,7 +1106,7 @@ header::after {
         background: rgba(27, 134, 149, 0.66); }
   .ourworks {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     display: block;
     position: relative; }
   .creators {
@@ -1158,8 +1157,10 @@ header::after {
     margin-top: 10%;
     color: white; }
     .creatorName h3 {
+      font-size: 4vw;
       font-family: 'Playfair Display', serif; }
     .creatorName h4 {
+      font-size: 3vw;
       font-family: 'Playfair Display', serif; }
   .creatorImage {
     display: flex;
