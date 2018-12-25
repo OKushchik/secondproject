@@ -1109,6 +1109,10 @@ header::after {
     height: 60vh;
     display: block;
     position: relative; }
+  .ourworksText h3 {
+    font-size: 16px; }
+  .ourworksText h4 {
+    font-size: 12px; }
   .creators {
     width: 100%;
     height: 100%;
@@ -1140,7 +1144,7 @@ header::after {
     height: auto;
     display: block;
     text-align: center;
-    margin-top: 5%; }
+    margin-top: 2%; }
     .creatorsText h1 {
       display: block;
       text-align: center;
@@ -1150,7 +1154,7 @@ header::after {
       text-align: center;
       color: white;
       font-size: 3vw;
-      margin-top: -8%; }
+      margin-top: -15%; }
   .creatorName {
     width: 100%;
     height: 100%;
