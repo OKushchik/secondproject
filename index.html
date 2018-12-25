@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>projectTwo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
@@ -21,6 +22,9 @@
                 <img class="headerBlockLogo__Two" src="img/header/logotwoo.png" alt="logotwo">
             </div>
             <div class="headerBlockMenu">
+                <div class="burgerMenu">
+                    <i class="fas fa-bars"></i>
+                </div>
                 <ul>
                     <li class="headerBlockMenu__item headerBlockMenu__item-active">
                         <a href="#">HOME</a>
@@ -79,11 +83,13 @@
         </div>
     </div>
     <div class="video">
-        <img src="img/main/city.png" alt="city">
-        <div class="video__buttom">
-            <a href="#"><img src="img/main/videoplayy.png"></a>
+        <div class="video_wrapper">
+            <img src="img/main/city.png" alt="city">
+            <div class="video__buttom">
+                <a href="#"><img src="img/main/videoplayy.png"></a>
+            </div>
+            <div class="video__Text"><h4>WATCH OUR STORY</h4></div>
         </div>
-        <h4>WATCH OUR STORY</h4>
     </div>
     <div class="wrapperExpertise">
         <div class="titleExpertise">
@@ -223,8 +229,8 @@
     <div class="comment">
         <div class="commentWrapper">
             <div class="commentTitle">
-                <h3>GIVE US A GOOD NEWS</h3>
-                <h3>OUR HAPPY CLIENT</h3>
+                <div class="commentTitle__commentGoodnews"><h3>GIVE US A GOOD NEWS</h3></div>
+                <div class="commentTitle__commentHappyclient"><h3>OUR HAPPY CLIENT</h3></div>
             </div>
             <div class="commentContent">
                 <div class="commentContentForm">
@@ -297,7 +303,7 @@
                         <img src="img/footer/adress.png">
                     </div>
                     <div class="informPartTwo__adressText">
-                        <p>Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - J</p>
+                        <p>Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres </p>
                     </div>
                 </div>
                 <div class="informPartTwo__telephone">
@@ -319,32 +325,37 @@
                                 <input name="text" type="text" placeholder="Subscribe our newsletter">
                             </div>
                             <div class="informPartThree__formEnter">
-                                <input type="image" src="img/footer/formenter.png" id="text">
+                                <input id="send" type="image" src="img/footer/formenter.png" id="text">
                             </div>
                     </div>
                     </form>
                 <div class="informPartThree__icon">
-
+                    <div class="informPartThree__iconLogo"><a href="#"><img src="img/footer/facebook.png" alt="facebook"></a></div>
+                    <div class="informPartThree__iconLogo"><a href="#"><img src="img/footer/tweet.png" alt="tweet"></a></div>
+                    <div class="informPartThree__iconLogo"><a href="#"><img src="img/footer/web.png" alt="web"></a></div>
+                    <div class="informPartThree__iconLogo"><a href="#"><img src="img/footer/insta.png" alt="insta"></a></div>
+                    <div class="informPartThree__iconLogo"><a href="#"><img src="img/footer/googl.png" alt="google"></a></div>
+                    <div class="informPartThree__iconLogo"><a href="#"><img src="img/footer/youtube.png" alt="Youtube"></a></div>
                 </div>
-
             </div>
         </div>
+        <div class="privacy">
+            <div class="privacyMenu">
+                <ul>
+                    <li>
+                        <a href="#">HELP</a>
+                    </li>
+                    <li>
+                        <a href="#"> TERMS & CONDITION</a>
+                    </li>
+                    <li>
+                        <a href="#"> PRIVACY</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright"><p>Copyright © 2015 - Tajem Creative</p></div>
         </div>
-        <!--<div class="privacy">-->
-            <!--<div class="privacyMenu">-->
-                <!--<ul>-->
-                    <!--<li class="privacyMenu__item">-->
-                        <!--<a href="#">HELP</a>-->
-                    <!--</li>-->
-                    <!--<li class="privacyMenu__item">-->
-                        <!--<a href="#"> TERMS & CONDITION</a>-->
-                    <!--</li>-->
-                    <!--<li class="privacyMenu__item">-->
-                        <!--<a href="#"> PRIVACY</a>-->
-                    <!--</li>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</div>-->
+    </div>
 </div>
 </footer>
 
