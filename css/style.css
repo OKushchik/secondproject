@@ -1331,6 +1331,7 @@ header::after {
     .ourworksText__left {
       width: 50%; }
       .ourworksText__left h3 {
+        font-size: 3vw;
         font-family: 'Playfair Display', serif; }
     .ourworksText__right {
       width: 50%;
@@ -1342,63 +1343,85 @@ header::after {
         margin-left: 2%;
         padding-top: 1%; }
       .ourworksText__right h4 {
-        font-size: 2.5vh;
+        font-size: 2.5vw;
         display: block;
         font-family: 'Roboto', serif; }
   .ourworksGreysquare {
     margin-top: 5%;
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; }
+    display: block; }
     .ourworksGreysquare__one {
-      width: 100px;
-      height: 100px;
+      position: relative;
+      margin: 2% auto;
+      width: 80vw;
+      height: 70vw;
       background: #b6b6b6; }
     .ourworksGreysquare__two {
-      width: 100px;
-      height: 100px;
+      position: relative;
+      margin: 2% auto;
+      width: 80vw;
+      height: 70vw;
       background: #acacac; }
     .ourworksGreysquare__three {
-      width: 100px;
-      height: 100px;
+      position: relative;
+      margin: 2% auto;
+      width: 80vw;
+      height: 70vw;
       background: #a1a1a1; }
     .ourworksGreysquare__four {
-      width: 100px;
-      height: 100px;
+      position: relative;
+      margin: 2% auto;
+      width: 80vw;
+      height: 70vw;
       background: #8a8a8a; }
     .ourworksGreysquare__five {
-      width: 100px;
-      height: 100px;
+      position: relative;
+      margin: 2% auto;
+      width: 80vw;
+      height: 70vw;
       background: #b6b6b6; }
     .ourworksGreysquare__six {
-      width: 100px;
-      height: 100px;
+      position: relative;
+      margin: 2% auto;
+      width: 80vw;
+      height: 70vw;
       background: #a4a4a4; }
     .ourworksGreysquare__seven {
-      width: 100px;
-      height: 100px;
+      position: relative;
+      margin: 2% auto;
+      width: 80vw;
+      height: 70vw;
       background: #a4a4a4; }
     .ourworksGreysquare__eight {
-      width: 100px;
-      height: 100px;
+      position: relative;
+      margin: 2% auto;
+      width: 80vw;
+      height: 70vw;
       background: #b6b6b6; }
     .ourworksGreysquare__nine {
-      width: 100px;
-      height: 100px;
+      position: relative;
+      margin: 2% auto;
+      width: 80vw;
+      height: 70vw;
       background: #8a8a8a; }
     .ourworksGreysquare__ten {
-      width: 100px;
-      height: 100px;
+      position: relative;
+      margin: 2% auto;
+      width: 80vw;
+      height: 70vw;
       background: #a1a1a1; }
     .ourworksGreysquare__eleven {
-      width: 100px;
-      height: 100px;
+      position: relative;
+      margin: 2% auto;
+      width: 80vw;
+      height: 70vw;
       background: #acacac; }
     .ourworksGreysquare__twelve {
-      width: 100px;
-      height: 100px;
+      position: relative;
+      margin: 2% auto;
+      width: 80vw;
+      height: 70vw;
       background: #b6b6b6; }
     .ourworksGreysquare__one::before {
       display: none; }
